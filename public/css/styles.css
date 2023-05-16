@@ -380,7 +380,7 @@ transform: scale(1.2);
         transform: translate(-200vw);
         transition: transform 0.5s ease-in-out;
         background-color: black;
-        opacity: 0.7;
+        opacity: 0.9;
         height: 90vh;
         width: 100vw;
         padding-top: 10vh;
@@ -534,10 +534,10 @@ transform: scale(1.2);
     }
 
     #intro h2 {
-        font-size: 14vw;
-        margin: auto;
+        font-size: 13vw;
+        margin: 6vmax 4vw 0;
         justify-content: center;
-        padding: 3vmax;
+        padding: 2vmax 3vmax 0;
     }
 
     .intro-info {
@@ -561,7 +561,7 @@ transform: scale(1.2);
     }
 
     #credits h2 {
-        font-size: 4.3rem;
+        font-size: 4rem;
         font-weight: 700;
     }
 
@@ -570,7 +570,7 @@ transform: scale(1.2);
     }
 
     .credit-item {
-        width: 60vw;
+        width: 70vw;
         margin: 20px auto;
         height: 55vh;
     }
