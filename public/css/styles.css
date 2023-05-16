@@ -43,6 +43,7 @@ input[type="checkbox"],
     background-color: transparent;
     transition: 0.25s;
     -webkit-transition: background 0.25s;
+    z-index: 100;
 }
 
 
@@ -365,6 +366,7 @@ transform: scale(1.2);
         padding: 2.6vmax 3.5vmax 0vmax;
         margin-top: 0;
         height: 8vmax;
+        z-index: 100;
     }
 
     .nav-items ul {
@@ -448,7 +450,7 @@ transform: scale(1.2);
         height: 29px;
         width: 39px;
         cursor: pointer;
-        z-index: 3;
+        z-index: 103;
         opacity: 0;
     }
 
@@ -463,10 +465,11 @@ transform: scale(1.2);
     .hamburger-lines {
         height: 25px;
         width: 39px;
-        z-index: 2;
+        z-index: 102;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        
     }
 
     .hamburger-lines .line {
@@ -589,8 +592,7 @@ transform: scale(1.2);
 
     #footer {
         margin: auto;
-        padding: 4vmax;
-        /* width: 80vmax; */
+        padding: 4vmax 2vmax;
         background-color: #181818;
     }
     
@@ -600,7 +602,7 @@ transform: scale(1.2);
     }
     
     .footer-about {
-        width: 55vmax;
+        width: 50vmax;
         margin: 0 0 4vmax 0;
     }
     
@@ -627,7 +629,32 @@ transform: scale(1.2);
     .footer-contact {
         margin: 4vmax 3px 0 0;
     }
-
+    /* .footer-main{
+        flex-direction: column;
+    }
+    .footer-about{
+        width: 50vmax;
+    }
+    .footer-games{
+        margin: 3vmax 0 0 0;
+    }
+    .footer-games h3{
+        font-size: 2.4rem;
+        margin: 0 0 0 0;
+    }
+    .footer-games p{
+        font-size: 1.35rem;
+    }
+    .footer-contact{
+        margin: 3vmax 0 0 0;
+    }
+    #footer hr{
+        width: 90vmin;
+        margin: 5vmax 0 0 0;
+    }
+    .footer-copyright p{
+        margin: 1% 0 0 0;
+    } */
     }
     
  
