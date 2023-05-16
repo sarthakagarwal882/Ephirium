@@ -366,9 +366,9 @@ transform: scale(1.2);
 @media (max-width:900px) {
 
     .navbar {
-        padding: 2.6vmax 3.5vmax 0vmax;
+        padding: 1.6vmax 3.5vmax 1vmax;
         margin-top: 0;
-        height: 8vmax;
+        height: 6.75vmax;
         z-index: 100;
     }
 
@@ -462,7 +462,7 @@ transform: scale(1.2);
         display: block;
         position: fixed;
         left: 85%;
-        top: 4%;
+        top: 3%;
     }
 
     .hamburger-lines {
@@ -534,7 +534,7 @@ transform: scale(1.2);
     }
 
     #intro h2 {
-        font-size: 13vw;
+        font-size: 12vw;
         margin: 6vmax 4vw 0;
         justify-content: center;
         padding: 2vmax 3vmax 0;
