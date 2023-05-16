@@ -602,7 +602,7 @@ transform: scale(1.2);
     }
     
     .footer-about {
-        width: 50vmax;
+        width: 75vw;
         margin: 0 0 4vmax 0;
     }
     
@@ -611,6 +611,7 @@ transform: scale(1.2);
     }
     
     .footer-about p {
+
         opacity: 0.7;
         font-size: 1.15rem;
         margin: 1.5vmax 0 0 0;
@@ -629,32 +630,7 @@ transform: scale(1.2);
     .footer-contact {
         margin: 4vmax 3px 0 0;
     }
-    /* .footer-main{
-        flex-direction: column;
-    }
-    .footer-about{
-        width: 50vmax;
-    }
-    .footer-games{
-        margin: 3vmax 0 0 0;
-    }
-    .footer-games h3{
-        font-size: 2.4rem;
-        margin: 0 0 0 0;
-    }
-    .footer-games p{
-        font-size: 1.35rem;
-    }
-    .footer-contact{
-        margin: 3vmax 0 0 0;
-    }
-    #footer hr{
-        width: 90vmin;
-        margin: 5vmax 0 0 0;
-    }
-    .footer-copyright p{
-        margin: 1% 0 0 0;
-    } */
+
     }
     
  
