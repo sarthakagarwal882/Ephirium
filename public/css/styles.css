@@ -502,7 +502,7 @@ transform: scale(1.2);
     }
 
     .nav-input[type="checkbox"]:checked~section .navbar .nav-items {
-        transform: translate(-91vw);
+        transform: translate(-92vw);
         z-index: -10;
     }
 
