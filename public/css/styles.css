@@ -409,7 +409,7 @@ transform: scale(1.2);
     #background-home {
         background:
             linear-gradient(180deg, rgba(64, 109, 108, 0) 68%, rgba(0, 0, 0, 0.8352591036414566) 99%),
-            url('/images/mobile.jpg') no-repeat;
+            url('/images/mobile.jpg') no-repeat center;
         /* background: url("/images/mobile.jpg") no-repeat center center; */
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -426,7 +426,7 @@ transform: scale(1.2);
     }
 
     #home h1 {
-        font-size: 5rem;
+        font-size: 4.4rem;
         margin: 0;
         padding: 22vh 0 0;
         text-align: center;
@@ -502,7 +502,7 @@ transform: scale(1.2);
     }
 
     .nav-input[type="checkbox"]:checked~section .navbar .nav-items {
-        transform: translate(-90vw);
+        transform: translate(-91vw);
         z-index: -10;
     }
 
@@ -535,7 +535,7 @@ transform: scale(1.2);
 
     #intro h2 {
         font-size: 12vw;
-        margin: 6vmax 4vw 0;
+        margin: 5.3vmax 4vw 0;
         justify-content: center;
         padding: 2vmax 3vmax 0;
     }
