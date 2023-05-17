@@ -66,6 +66,7 @@ input[type="checkbox"],
     border-spacing: 50px;
     font-size: 15px;
     font-weight: 400;
+    opacity: 0.7;
 }
 .nav-li{
     transition: 0.25s;
