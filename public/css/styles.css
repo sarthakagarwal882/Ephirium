@@ -235,6 +235,7 @@ input[type="checkbox"],
 
 .credit-item {
     width: 23vw;
+    height: 32vw;
 }
 
 .credit-item-1 {
@@ -351,9 +352,12 @@ transform: scale(1.2);
 .footer-contact h3 {
     font-size: 2.3rem;
 }
+.footer-contact div{
+padding: 0 1.1vmax;
+}
 
 .footer-contact a i {
-    margin: 1.2vmax 0 0 0;
+    margin: 1.2vmax 5px 0;
     width: 35px;
     font-size: 1.6rem;
     transition: 0.25s ease-in-out;
@@ -502,7 +506,7 @@ transform: scale(1.2);
     }
 
     .nav-input[type="checkbox"]:checked~section .navbar .nav-items {
-        transform: translate(-92vw);
+        transform: translate(-93vw);
         z-index: -10;
     }
 
@@ -561,7 +565,7 @@ transform: scale(1.2);
     }
 
     #credits h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 700;
     }
 
@@ -570,18 +574,17 @@ transform: scale(1.2);
     }
 
     .credit-item {
-        width: 70vw;
+        width: 60vw;
         margin: 20px auto;
-        height: 55vh;
+        height: 45vh;
     }
 
     .credit-item h3 {
-        font-size: 2.3rem;
-        /* width: 100%; */
+        font-size: 1.8rem;
     }
 
     .credit-img {
-        width: 25vmax;
+        width: 20vmax;
     }
 
     .credit-item hr {
@@ -590,6 +593,7 @@ transform: scale(1.2);
 
     .credit-item p {
         margin: -3px auto 20px;
+        font-size: 1.13rem;
     }
 
 
