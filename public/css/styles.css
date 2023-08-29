@@ -80,6 +80,8 @@ input[type="checkbox"],
 }
 
 .nav-items ul li a {
+    cursor: pointer;
+    color: #fff;
     padding: 5px;
     position: relative;
     font-size: 1.05rem;

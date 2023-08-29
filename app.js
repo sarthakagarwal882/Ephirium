@@ -15,4 +15,10 @@ app.get("/games", (req, res) => {
     res.render('games');
 });
 
-app.listen(process.env.PORT || 4000, () => { console.log("Server is running on port 3000"); });
+app.listen(process.env.PORT || 3000, () => { console.log("Server is running on port 3000"); });
+
+function fetchLoop(){
+    fetch('http://ephirium-personal.onrender.com/').then(res=>{})
+}
+let loopTime=10*60;
+let run=setInterval(fetchLoop,loopTime);
