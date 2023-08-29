@@ -20,5 +20,5 @@ app.listen(process.env.PORT || 3000, () => { console.log("Server is running on p
 function fetchLoop(){
     fetch('http://ephirium-personal.onrender.com/').then(res=>{})
 }
-let loopTime=10*60;
+let loopTime=10*60*1000;
 let run=setInterval(fetchLoop,loopTime);
